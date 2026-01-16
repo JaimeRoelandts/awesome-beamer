@@ -378,7 +378,7 @@ segmentation style={lcr, solid, shorten >=1mm,shorten <=1mm, line width=\smile@l
 			\clip (current page.south east)
 				-- (current page.north east)
 				-- ++(-5.1, 0)
-				-- ++(-3, -\paperheight)
+				-- ++(-1.5, -\paperheight)
 				-- cycle;
 
 			\node[anchor=south east,inner sep=0,outer sep=0] at (current page.south east) {
@@ -390,7 +390,7 @@ segmentation style={lcr, solid, shorten >=1mm,shorten <=1mm, line width=\smile@l
 		\end{tikzpicture}
 		\tikz[o]\draw[black,lcr,line width=2*\smile@linewidth]
 			([shift={(-5.1,0)}]current page.north east)
-			-- ++(-3,-\paperheight);
+			-- ++(-1.5,-\paperheight);
 	\fi
 \end{wide}}
 
